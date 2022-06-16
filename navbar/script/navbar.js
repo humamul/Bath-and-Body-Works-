@@ -36,14 +36,14 @@ return ` <div class="head1_A">
 
 </div>
 <div class="category_A">
-    <a style="color: red; font-weight:bod;" href="./products pages/all products.html">ALL PRODUCTS</a>
-    <a href="">NEW & NOW</a>
-    <a href="">BODY CARE</a>
-    <a href="">CANDLES</a>
-    <a href="">HOME FRAGRANCE</a>
-    <a href="">HAND SHOP'S & SANITIZERS</a>
-    <a href="">MEN'S</a>
-    <a href="">GIFTS</a>
+    <a href="../products pages/all products.html" id="nav1_h">ALL PRODUCTS</a>
+    <a href="" id=nav2_h>NEW & NOW</a>
+    <a href="" id=nav3_h>BODY CARE</a>
+    <a href="" id=nav4_h>CANDLES</a>
+    <a href="../fragrance/index.html" id=nav5_h>FRAGRANCE</a>
+    <a href="" id=nav6_h>HAND SOAP'S & SANITIZERS</a>
+    <a href="" id=nav7_h>MEN'S</a>
+    <a href="" id=nav8_h>GIFTS</a>
 </div>
 </div>`
 }

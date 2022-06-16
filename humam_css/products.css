@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
 #container_h{
     width: 86%;
     margin: auto;
