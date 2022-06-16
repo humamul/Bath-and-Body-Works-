@@ -1,13 +1,5 @@
-// New & Now --> All New Arrival
-// All the data arrange  in following category :-
-//1)lotion ,2)cream,3)fragrance, 4)gel, 5)gift, 6)sanitizer
-
-// 1) New & Now = 19
-
 var data = [
   {
-    //cologne
-
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwcaf30557/large/026281150.jpg",
     name: "Stone Mini Cologne",
@@ -22,7 +14,6 @@ var data = [
       "A fresh-cut bouquet of soft rose petals, rain-kissed ivy & soft musk",
   },
   {
-    //Lotion
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwb9472799/large/026299194.jpg",
     name: "Stone Body Lotion",
@@ -66,8 +57,6 @@ var data = [
   },
 
   {
-    //Cream
-
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwf4ecd7c5/large/026326994.jpg",
     name: "Stone Ultimate Hydration Body Cream",
@@ -112,7 +101,6 @@ var data = [
       "What it smells like: the fruity, airy treat you love.Fragrance notes: fresh strawberries, golden shortcake and whipped cream.",
   },
 
-  //fragrance
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwd6418f04/large/026400333.jpg",
@@ -157,8 +145,6 @@ var data = [
     fragrance:
       "What it smells like: juicy berries covered in sweet cream.Fragrance notes: fresh berries, whipped sugar and fluffy vanilla.",
   },
-
-  //gel
 
   {
     image:
@@ -205,8 +191,6 @@ var data = [
       "An airy blend of peony, natural apple oil and vanilla sandalwood",
   },
 
-  //gift
-
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw7508b526/large/14xnxutye4sto8d_667555534383.jpg",
@@ -250,7 +234,6 @@ var data = [
       "A luxurious blend of soft rose, white birch & a drop of strawberry nectar",
   },
 
-  // sanitizer
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwf42321b8/large/026347256.jpg",
@@ -293,10 +276,6 @@ var data = [
       "A sparkling blend of starflower, sandalwood musk, sugared tangelo, white agarwood and radiant amber",
   },
 
-  // ------------------------------------/////////////////////////////////////---------------------------
-
-  //BATH & Showers ----->>>>>>>>>>
-  //1) Scrub(4)
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4861f8f9/large/024491265.jpg",
@@ -355,8 +334,6 @@ var data = [
     fragrance:
       "A bright, bubbly splash of champagne and the happy scent of sweet citrus",
   },
-
-  //2)Gel(6)
 
   {
     image:
@@ -444,7 +421,7 @@ var data = [
     fragrance:
       "A luxurious blend of soft rose, white birch & a drop of strawberry nectar",
   },
-  //3) Bar(3)
+
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwa92a98ba/large/026330002.jpg",
@@ -487,9 +464,6 @@ var data = [
     fragrance: "Eucalyptus oil and spearmint oil in a rich, creamy lather.",
   },
 
-  //Fragrance------->>>>>
-
-  //1)fragrance = 5, 2)perfume=5
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw098e8058/large/026201512.jpg",
@@ -562,8 +536,6 @@ var data = [
     fragrance:
       "A cozy, enveloping, irresistible blend of vanilla, white orchid & sparkling sugar",
   },
-
-  //perfume
 
   {
     image:
@@ -638,9 +610,6 @@ var data = [
       "Delight in a sense of wonder with this clean blend of iced rosé, star jasmine and warm white amber",
   },
 
-  //GIFTS SETS----->>>>
-  //gifts(5)
-
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4ad10a9f/large/026307889.jpg",
@@ -712,9 +681,6 @@ var data = [
     fragrance:
       "A timeless, feminine, alluring blend of dark berries, midnight jasmine and rich amber",
   },
-
-  //Moisturizer ------>>>>>>
-  //1) Cream=6  2)lotion=6
 
   {
     image:
@@ -802,7 +768,6 @@ var data = [
       "What it smells like: fruity custard topped with a crunchy sugar shell.Fragrance notes: baked pear, caramelized sugar and whipped cream.",
   },
 
-  //Lotion(6)
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwbce174b8/large/026399711.jpg",
@@ -889,8 +854,6 @@ var data = [
       "What it smells like: juicy berries covered in sweet cream.Fragrance notes: fresh berries, whipped sugar and fluffy vanilla.",
   },
 
-  //AROMATHERAPY
-  //1)Cream 2)Lotion
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwf650258e/large/026165991.jpg",
@@ -920,7 +883,6 @@ var data = [
       "This carefully crafted blend of eucalyptus and spearmint oil creates a well-balanced aromatic fragrance.",
   },
 
-  //lotion
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw07bac02d/large/026131621.jpg",
@@ -949,9 +911,6 @@ var data = [
     fragrance:
       "This carefully crafted blend of eucalyptus oil and tea extract creates a well-balanced aromatic fragrance.",
   },
-
-  //MEN'S
-  //1)Lotion(3)  2) Cream(3)  3)Cologne(3)  4)
 
   {
     image:
@@ -994,7 +953,7 @@ var data = [
     quantity: 1,
     fragrance: "An invigorating blend of blue cypress, vetiver & coastal air",
   },
-  //Cream
+
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw296bd718/large/026282784.jpg",
@@ -1038,7 +997,6 @@ var data = [
       "An invigorating blend of blue cypress, vetiver and coastal air in our 2-in-1 body wash and scrub",
   },
 
-  //Cologne
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwf4bddf35/large/026132657.jpg",
@@ -1120,13 +1078,6 @@ var data = [
     fragrance: "A cool blend of Mediterranean waters, geranium & amber wood",
   },
 
-  ////
-
-  //Hand Soaps and Cleansers-------->>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-  //a)Hand Cleansers
-
-  //1)Gel=5    2) cleansers = 2  3)Holders = 5
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw26b6531e/large/qira4fmiyo40k34_26297782.jpg",
@@ -1196,7 +1147,7 @@ var data = [
     quantity: 1,
     fragrance: "A carefully crafted blend of eucalyptus and spearmint oil.",
   },
-  //cleansers
+
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwb88d8700/large/mbbgxqybxy9nob7_26307823.jpg",
@@ -1225,8 +1176,6 @@ var data = [
     fragrance:
       "A perfect pick-me-up of bright citrus, fresh squeezed lemons & cane sugar",
   },
-
-  //Holders
 
   {
     image:
@@ -1295,11 +1244,6 @@ var data = [
     fragrance: "NA",
   },
 
-  //Hand Soaps
-
-  //1)Soap  2)Holder
-
-  //1)Soaps
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dwb086cfb2/large/026018137.jpg",
@@ -1329,7 +1273,6 @@ var data = [
       "An addictive swirl of creamy vanilla & sparkling sugar crystals",
   },
 
-  // 2)Holders
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw21dbefbb/large/026429559.jpg",
@@ -1343,10 +1286,6 @@ var data = [
     quantity: 1,
     fragrance: "NA",
   },
-
-  /////////Home Fragrance -->----->////////
-
-  //1)CANDLES = 12   2)Air Freshers = 12
 
   {
     image:
@@ -1514,8 +1453,6 @@ var data = [
     fragrance:
       "Intoxicating Vanilla, White Orchid, Sparkling Sugar, Fresh Jasmine, Creamy Sandalwood with Essential Oils",
   },
-
-  //2)Air Freshers = 12
 
   {
     image:
@@ -1686,8 +1623,6 @@ var data = [
       "Home fragrance that lasts for weeks and weeks! Pair with a Wallflowers plug and enjoy the scent of Eucalyptus and Spearmint Essential Oils",
   },
 
-  //Room Spray
-
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw778ed87c/large/026049908.jpg",
@@ -1797,11 +1732,6 @@ var data = [
       "A fresh blend of bright florals & a hint of sweet citrus. Notes of blue freesia, white peach & fresh clementine",
   },
 
-  ///Gifts--->>>>>>>>////////////////////////////
-
-  //1)Gifts By recipient
-
-  //a)gel
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw19853a81/large/026357103.jpg",
@@ -1889,7 +1819,6 @@ var data = [
       "A luxurious blend of soft rose, white birch & a drop of strawberry nectar",
   },
 
-  // b)Candles(6)
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw533e8102/large/024635101.jpg",
@@ -1973,8 +1902,6 @@ var data = [
     fragrance:
       "Peach Tea, Sweet Vanilla Crème, Fresh Oat Milk with Natural Essential Oils",
   },
-
-  // c)Fragrance(6)
 
   {
     image:
@@ -2061,8 +1988,6 @@ var data = [
       "Fresh Ground Cinnamon, Sugar Crystals, Tahitian Vanilla Bean with Natural Essential Oils",
   },
 
-  // d) Lotion (6)
-
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw07bac02d/large/026131621.jpg",
@@ -2146,8 +2071,6 @@ var data = [
     fragrance:
       "Delight in a sense of wonder with this clean blend of iced rosé, star jasmine and warm white amber",
   },
-
-  //  e)gifts(6)
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4ad10a9f/large/026307889.jpg",
@@ -2233,11 +2156,6 @@ var data = [
     fragrance:
       "A timeless, feminine, alluring blend of dark berries, midnight jasmine and rich amber",
   },
-
-  ////collections
-
-  // a)Bags
-
   {
     image:
       "https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw3c540bb0/large/026285430.jpg",
@@ -2294,4 +2212,4 @@ var data = [
   },
 ];
 
-localStorage.setItem("all_data", JSON.stringify(data));
+localStorage.setItem("rawData",JSON.stringify(data));

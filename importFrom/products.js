@@ -1,4 +1,5 @@
 function append(cont,data){
+    cont.innerHTML = null;
       data.forEach(el => {
     
         let div = document.createElement('div')
