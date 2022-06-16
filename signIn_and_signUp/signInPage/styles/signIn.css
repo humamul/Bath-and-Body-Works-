@@ -1,0 +1,323 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Trade Gothic W01 Light, Arial, sans-serif;
+}
+#hr {
+  width: 100%;
+  margin-top: 190px;
+  border: 2px solid rgb(242, 242, 242);
+}
+#linkD {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  font-size: 11px;
+  margin: 9px auto 26px auto;
+  color: #666666;
+}
+#linkD a {
+  color: #666666;
+}
+#linkD a:hover {
+  text-decoration: none;
+}
+#containerD {
+  width: 70%;
+  margin: auto;
+  height: auto;
+}
+#imgD img {
+  width: 100%;
+}
+#imgD + p {
+  font-size: 24px;
+  margin-top: 40px;
+  font-weight: 200;
+  font-family: "Gothic A1", sans-serif;
+}
+#imgD + p + hr {
+  color: black;
+  margin-top: 10px;
+}
+#signUpFormD {
+  width: 100%;
+  height: auto;
+  padding: 24px 24px 36px;
+  display: flex;
+  justify-content: space-around;
+}
+#signUpFormD > div:first-child {
+  width: 40%;
+}
+#signUpFormD > div:last-child {
+  width: 40%;
+}
+#formD {
+  width: 100%;
+  margin: auto;
+  padding: 10px 0px 0px 0px;
+}
+#formD > div:first-child,
+#signUp_D {
+  text-align: center;
+  border: 0px;
+}
+#formD h2,
+#signUp_D h2 {
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-family: "Gothic A1", sans-serif;
+}
+#formD h2 + p,
+#signUp_D h2 + p {
+  font-weight: 300;
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #666;
+  line-height: 24px;
+  font-family: "Gothic A1", sans-serif;
+}
+#formD label {
+  font-size: 14px;
+}
+#formD > div {
+  width: 100%;
+  height: 40px;
+  padding: 2px;
+  margin: 12px 8px 30px;
+  /* border: 1px dotted black; */
+}
+#formD > div > input {
+  width: 100%;
+  height: 100%;
+  padding-left: 12px;
+  border: 1px solid rgb(230, 230, 230);
+}
+#formD > div > div {
+  display: flex;
+  height: 100%;
+  border: 1px solid rgb(230, 230, 230);
+}
+#formD > div > div > input {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding-left: 12px;
+}
+#formD > div > div button {
+  width: 60px;
+  height: 100%;
+  padding: 0px 12px;
+  font-size: 13px;
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+}
+#formD input:focus {
+  outline: none;
+}
+#formD > div:last-child {
+  border: 0px;
+  text-align: center;
+  margin-top: -30px;
+}
+#formD a {
+  font-size: 12px;
+  color: #333333;
+  text-align: center;
+}
+#formD a:hover {
+  text-decoration: none;
+}
+#formD > div:last-child > div {
+  width: 120px;
+  margin: auto;
+  font-size: 11px;
+  padding: 0px 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+  color: white;
+}
+#formD > div:last-child > div:hover,
+#button {
+  background-color: rgb(239, 241, 241);
+  color: black;
+  cursor: pointer;
+}
+#formD > div:nth-last-child(2) {
+  border: 0px;
+  display: flex;
+  font-size: 14px;
+  color: #666666;
+  padding: 0px 5px;
+  justify-content: space-between;
+}
+#spacerD {
+  background: none;
+  position: relative;
+  display: inline-block;
+  width: 9%;
+}
+#spacerD > div:first-child {
+  border-left: 1px solid #aaa;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+}
+#orD {
+  color: #666;
+  width: 37px;
+  height: 37px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background-color: #fff;
+  font-family: Trade Gothic W01 Light, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.52px;
+  line-height: 18px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 27px;
+  left: calc(50% - 18px);
+  text-align: center;
+  line-height: 37px;
+}
+#signUp_D {
+  padding: 25px 0px 0px 0px;
+}
+#signUp_D img {
+  width: 100%;
+  margin-top: 15px;
+}
+#signUp_D img + div {
+  width: 100%;
+  margin: auto;
+}
+#signUp_D #button {
+  width: 60%;
+  margin: auto;
+  height: 40px;
+  font-size: 11px;
+  padding: 0px 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(51, 51, 51);
+  border: 0px;
+  margin-bottom: 30px;
+  color: white;
+}
+#signUp_D #button:hover {
+  background-color: rgb(239, 241, 241);
+  color: black;
+}
+#signUp_D a {
+  text-decoration: none;
+}
+#containerD > div:last-child {
+  width: 96%;
+  text-align: center;
+  font-size: 13px;
+  color: #666666;
+  border: 0px;
+  margin: 10px 0px 0px 0px;
+  line-height: 35px;
+}
+#hr1 {
+  width: 100%;
+  margin: 90px 0px 20px 0px;
+  border: 2px solid rgb(242, 242, 242);
+}
+
+@media all and (min-width: 768px) and (max-width: 1000px) {
+  #containerD {
+    width: 95%;
+  }
+}
+@media all and (max-width: 768px) {
+  #containerD {
+    width: 100%;
+    padding: 0px 15px;
+  }
+  #signUpFormD {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin: auto;
+  }
+  #signUpFormD > div:first-child {
+    width: 45%;
+    margin: auto;
+    margin-top: -20px;
+  }
+  #spacerD {
+    background: none;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+  }
+  #spacerD > div:first-child {
+    border-top: 1px solid #aaa;
+    width: 100%;
+    height: 1px;
+    left: inherit;
+    top: 50%;
+    position: absolute;
+  }
+  #orD {
+    color: #666;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: Trade Gothic W01 Light, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+    position: absolute;
+    top: calc(50% - 19px);
+    text-align: center;
+  }
+  #signUpFormD > div:last-child {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #signUp_D #button {
+    width: 30%;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 219px) and (max-width: 479px) {
+  #imgD img {
+    width: 100%;
+    height: 100px;
+    margin-bottom: -20px;
+  }
+  #signUpFormD > div:first-child {
+    width: 95%;
+    margin: auto;
+    margin-top: -20px;
+  }
+  #signUp_D #button {
+    width: 95%;
+    height: 36px;
+    margin-bottom: 0px;
+  }
+  #formD > div:last-child > div {
+    width: 100%;
+  }
+}

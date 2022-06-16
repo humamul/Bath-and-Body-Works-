@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Gothic A1", sans-serif;
+}
+#hr {
+  width: 100%;
+  margin-top: 190px;
+  border: 2px solid rgb(242, 242, 242);
+}
+#linkD {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  font-size: 11px;
+  margin: 9px auto 26px auto;
+  color: #666666;
+}
+#linkD a {
+  color: #666666;
+}
+#linkD a:hover {
+  text-decoration: none;
+}
+#containerD {
+  width: 70%;
+  margin: auto;
+  height: auto;
+}
+#imgD img {
+  width: 100%;
+}
+#imgD + p {
+  font-size: 24px;
+  margin-top: 40px;
+  font-weight: 200;
+}
+#imgD + p + hr {
+  color: black;
+  margin-top: 10px;
+}
+p + hr + p {
+  font-size: 11px;
+  color: #666666;
+  text-align: right;
+}
+#signUpFormD {
+  width: 100%;
+  height: auto;
+}
+#formD {
+  width: 40%;
+  margin: auto;
+}
+#formD > div {
+  width: 100%;
+}
+#formD label {
+  font-size: 14px;
+}
+#formD > div {
+  width: 100%;
+  height: 40px;
+  margin: 12px 8px 30px;
+  /* border: 1px dotted black; */
+}
+#formD > div > input {
+  width: 100%;
+  height: 100%;
+  padding-left: 12px;
+  border: 1px solid rgb(230, 230, 230);
+}
+#formD input ~ p,
+#pass {
+  font-size: 12px;
+  color: #cc0000;
+  margin: 10px;
+}
+#formD p + p {
+  font-size: 10px;
+  margin: 10px 0px;
+}
+#formD > div > div {
+  display: flex;
+  height: 100%;
+  border: 1px solid rgb(230, 230, 230);
+}
+#formD > div > div > input {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding-left: 12px;
+}
+#formD > div > div button {
+  width: 60px;
+  height: 100%;
+  padding: 0px 12px;
+  font-size: 13px;
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+}
+#formD input:focus {
+  outline: none;
+}
+#formD > div:nth-last-child(2) {
+  border: 0px;
+  text-align: center;
+  margin-top: 40px;
+}
+#formD a {
+  font-size: 12px;
+  color: #333333;
+  text-align: right;
+}
+#formD a:hover {
+  text-decoration: none;
+}
+#formD > div:nth-last-child(2) > div {
+  width: 175px;
+  margin: auto;
+  font-size: 11px;
+  padding: 0px 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(230, 230, 230);
+  border: 0px;
+  margin-bottom: 30px;
+  color: #666666;
+}
+#formD > div:last-child {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  border: 0px;
+  margin: 60px 0px 100px 0px;
+}
+#hr1 {
+  width: 100%;
+  margin: 90px 0px 20px 0px;
+  border: 2px solid rgb(242, 242, 242);
+}
+
+@media all and (max-width: 768px) {
+  #containerD {
+    width: 100%;
+    padding: 0px 15px;
+  }
+  #imgD + p {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 200;
+  }
+  #formD {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1000px) {
+  #formD {
+    width: 60%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 319px) and (max-width: 479px) {
+  #imgD img {
+    width: 100%;
+    height: 100px;
+  }
+}
