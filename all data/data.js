@@ -2019,7 +2019,4 @@ var data = [
     },
 ]
 
-var c =0
-var x = data.filter(function(el){
-    
-})
+localStorage.setItem('all_data',JSON.stringify(data))

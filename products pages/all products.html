@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="../humam_css/footer_h.css">
+<link rel="stylesheet" href="../navbar/style/navbar.css">
+<body>
+    <!-- header -->
+    <div id="header_h"></div>
+
+    <!-- container -->
+    <div id="container_h"></div>
+    <style>
+        #container_h{
+            width: 86%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,300px);
+            gap: 30px 20px;
+            justify-content: center;
+        }
+        #container_h>div{
+            /* border: 1px solid; */
+            text-align: center;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            padding-bottom: 1px;
+        }
+        .proImg_h{
+            width: 300px;
+            height: 400px;
+            /* border: 1px solid; */
+            
+            transition: transform 0.6s;
+
+        }
+        .proImg_h:hover{
+            transform: scale(1.1);
+        }
+        .name_h{
+            position: relative;
+            display: block;
+        }
+        
+    </style>
+
+    <!-- footer -->
+    <div id="footer_h">
+         <!-- <a href=""></a> -->
+    </div>
+
+</body>
+</html>
+<script>
+    var data =JSON.parse(localStorage.getItem('all_data'))
+
+// var out = data.filter(function(el){
+//   if(el.type=="Fragrance" || el.type == "Air Freshers"){
+//     return el
+//   }
+// })
+
+
+
+
+// console.log(out)
+    
+    data.forEach(el => {
+        // console.log(el.type)
+
+        // console.log(el.type)
+        let div = document.createElement('div')
+        div.setAttribute('class','box_h')
+
+        let image = document.createElement('img')
+        image.src = el.image;
+        image.setAttribute('class','proImg_h')
+
+        let name = document.createElement('a')
+        name.setAttribute('class','name_h')
+        name.innerText = el.name
+
+        let subtype = document.createElement('p')
+        subtype.setAttribute('class','name2_h')
+        subtype.innerText = el.subtype;
+
+        let price = document.createElement('p')
+        price.innerText = `₹${el.price}`;
+        price.setAttribute('class','pricepro_h')
+
+        let button = document.createElement('button')
+        button.setAttribute('class','probtn_h')
+        button.innerText = 'Add To Cart'
+        button.addEventListener('click',()=>{
+            addToCart(el)
+        })
+
+        div.append(image,name,subtype,price,button)
+        document.querySelector('#container_h').append(div)
+    });
+</script>
+</script>
+
+
+<script type="module">
+
+import {navbar_h} from "../navbar/script/navbar.js"
+import {footer} from "../footer.js"
+console.log(footer())
+
+var x = document.querySelector('#header_h')
+x.innerHTML = navbar_h()
+
+var y = document.querySelector('#footer_h')
+y.innerHTML = footer()
+</script>
