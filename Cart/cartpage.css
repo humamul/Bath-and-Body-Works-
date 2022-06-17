@@ -55,7 +55,7 @@ display: flex
     /* height: 15%; */
     margin-left:7%;
 }
-input[type='text'],textarea{
+#input_s,textarea{
     padding: 10px;
     border: 1px solid lightgray;
     box-sizing: border-box;
@@ -65,7 +65,7 @@ input[type='text'],textarea{
     margin-right: 10px;
     outline-color: #00A1E0;
 }
-input[type='submit']{
+#submit_s{
     border: none;
     padding: 12px;
     width:32% ;
@@ -73,7 +73,7 @@ input[type='submit']{
     background-color: #00A1E0;
     color: white;
 }
-input[type='submit']:hover{
+#submit_s:hover{
     border: 1px solid #00A1E0;
     color: #00A1E0;
     background-color: white;

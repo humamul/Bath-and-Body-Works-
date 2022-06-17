@@ -68,7 +68,9 @@ function appendData(data){
         let image = document.createElement('img')
         image.src = el.image;
         image.setAttribute('class','proImg_sv')
-
+        image.addEventListener('click',()=>{
+            Chacha(el)
+        })
         let ndiv = document.createElement('div')
         ndiv.setAttribute('class','namediv_sv')
         let name = document.createElement('a')
@@ -94,7 +96,14 @@ function appendData(data){
         display.append(div)
     });
 }
-
+let CartArray = JSON.parse(localStorage.getItem('cart')) || []
 function addToCart(data){
+    CartArray.push(data)
+    console.log(CartArray)
+    localStorage.setItem('cart',JSON.stringify(CartArray))
+    
+}
+function Chacha(data){
     localStorage.setItem('product',JSON.stringify(data))
+    window.location.href = '../product detail/product_detail.html'
 }
