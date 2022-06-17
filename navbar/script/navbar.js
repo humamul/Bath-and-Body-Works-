@@ -43,7 +43,7 @@ return ` <div class="head1_A">
     <a href="../fragrance/index.html" id=nav5_h>FRAGRANCE</a>
     <a href="" id=nav6_h>HAND SOAP'S & SANITIZERS</a>
     <a href="" id=nav7_h>MEN'S</a>
-    <a href="" id=nav8_h>GIFTS</a>
+    <a href="../gifts/index.html" id=nav8_h>GIFTS</a>
 </div>
 </div>`
 }
