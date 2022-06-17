@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites-BathAndBodyWorks-Sites</title>
+    <link rel="stylesheet" href="./cartpage.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="shortcut icon" href="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw9d49eb87/images/favicons/favicon-196x196.png" type="image/x-icon">
+</head>
+<body>
+    <div id="cart_container">
+        <div id="cart_details">
+            <p>Free product to be added in the cart by the customer to avail offer</p>
+            <div id="pro_details">
+                <div id="left"></div>
+                <div id="right">
+                    <form id="coupon">
+                        <label for="">Apply Coupons</label><br>
+                        <input type="text" placeholder="Enter Coupon Code">
+                        <input type="submit" value="APPLY">
+                    </form>
+                    <form id="delivery">
+                        <label for="">SHIPPING METHOD</label><br>
+                        <select name="" id="">
+                            <option value="Standard Delivery">Standard(Estimated Delivery in 5 to 7 Days)</option>
+                        </select>
+                    </form>
+                    <div id="order_details">
+                        <p>ORDER DETAILS</p>
+                        <p>Prices are inclusive of all taxes</p>
+                    </div>
+                    <div id="order_summary">
+                        <p>Order Summary</p>
+                        <!-- <div id="o_amount">
+                            <span>Order Amount</span><p id="o_value">0</p>
+                        </div> -->
+                        <div id="t_mrp">
+                            <span>Total MRP</span><p id = 'm_value'>0</p>
+                        </div>
+                        <div id="s_charges">
+                            <span>Shipping charges</span><p id="s_value">0</p>
+                        </div>
+                        <div id="discount">
+                            <span>Discount</span><p id="d_value">0</p>
+                        </div>
+                        <!-- <div id="t_mrp">
+                            <span>Total MRP</span><p m_value>0</p>
+                        </div> -->
+                        <div id="o_amount">
+                            <span>Order Amount</span><p id="o_value">0</p>
+                        </div>
+                        <div id="line"></div>
+                        <div id="o_total">
+                            <h3>ORDER TOTAL</h3><h3 id="t_value">0</h3>
+                        </div>
+                        <button id="checkout">CONTINUE CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer_sv"></div>
+</body>
+</html>
+<script src="./cartpage.js"></script>
+
+<script type="module">
+    import {footer} from "../navbar/script/footer.js"
+
+    let footer = document.querySelector('#footer_sv')
+    footer.innerHTML = footer()
+</script>

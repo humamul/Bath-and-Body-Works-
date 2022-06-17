@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bodycare.css">
+</head>
+<body>
+    <div id="navbar">Navbar</div>
+
+    <div id="display_sv">
+        <div id="dummy_sv">
+            <div>
+                <h4>TOP OFFERS</h4>
+                <p>$5.50 Select Men's Body Care</p>
+                <p>$4.95 Select Body Care</p>
+                <p>All Sale Body Care</p>
+                <h4>BATH & SHOWER</h4>
+                <p>All Bath & Shower</p>
+                <p>Body Wash & Shower Gel</p>
+                <p>Bubble Bath</p>
+                <p>Body Scrub</p>
+                <p>Bar Soap</p>
+                <p>Bath Accessories</p>
+                <h4>MOISTURIZERS</h4>
+                <p>All Moisturizers</p>
+                <p>Body Lotion</p>
+                <p>Body Cream</p>
+                <p>Hand Cream</p>
+                <p>Lip Gloss & Balms</p>
+
+            </div>
+        </div>
+        <div id="details_sv">
+            <p>Body Care</p>
+            <div id="filter">
+                <div id="filter1">
+                    <h4>Filter BY:</h4>
+                    <form>
+                        <select id="type_sv" onChange="handleType()">
+                            <option value="">Product Type</option>
+                            <option value="BATH & Showers">Bath & Showers</option>
+                            <option value="Moisturizer">Moisturizer</option>
+                            <option value="MEN'S">Mens's</option>
+                        </select>
+                        <select id="subtype_sv" onChange="handleSubtype()">
+                            <option value="">Product Subtype</option>
+                            <option value="Scrub">Scrub</option>
+                            <option value="Gel">Gel</option>
+                            <option value="Bar">Bar</option>
+                            <option value="Cream">Cream</option>
+                            <option value="Lotion">Lotion</option>
+                            <option value="Cream">Cream</option>
+                            <option value="Cologne">Cologne</option>
+                        </select>
+                    </form>
+                </div>
+                <div id="filter2">
+                    <form>
+                        <select id="price_sv" onChange="handlePrice()">
+                            <option value="">Sort By Price</option>
+                            <option value="LTH">Low to High</option>
+                            <option value="HTL">High to Low</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <img src="https://en.bloggif.com/tmp/e30a98b704c2af19033640b8488eb69d/text.gif?1655458856" alt="">
+            <div id="product_sv">
+                <div id="container_sv"></div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div id="footer">Footer</div>
+</body>
+</html>
+<script src="products.js"></script>
