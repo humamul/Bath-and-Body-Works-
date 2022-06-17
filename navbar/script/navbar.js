@@ -38,7 +38,7 @@ return ` <div class="head1_A">
 <div class="category_A">
     <a href="../products pages/all products.html" id="nav1_h">ALL PRODUCTS</a>
     <a href="" id=nav2_h>NEW & NOW</a>
-    <a href="" id=nav3_h>BODY CARE</a>
+    <a href="../BodyCare/bodycare.html" id=nav3_h>BODY CARE</a>
     <a href="" id=nav4_h>CANDLES</a>
     <a href="../fragrance/index.html" id=nav5_h>FRAGRANCE</a>
     <a href="" id=nav6_h>HAND SOAP'S & SANITIZERS</a>
@@ -47,5 +47,4 @@ return ` <div class="head1_A">
 </div>
 </div>`
 }
-
 export {navbar_h} ;

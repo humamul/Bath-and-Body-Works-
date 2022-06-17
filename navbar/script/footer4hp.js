@@ -31,14 +31,14 @@ function navbar_h(){
                 <button id="search_A"><img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwbfdc63c5/images/svg-icons/UI-Search-v2.svg?yocs=o_s_" alt=""></button>
             </fieldset>
             <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw3e39cc25/images/svg-icons/UI-MyAccount.svg?yocs=o_s_" alt="">
-            <img src="https://www.kindpng.com/picc/m/480-4803687_blue-cart-icon-hd-png-download.png" alt="">
+            <a href="./Cart/cartpage.html"><img src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw8581bc7e/images/AddToBag.png" alt=""></a>
         </div>
     
     </div>
     <div class="category_A">
         <a href="./products pages/all products.html" id="nav1_h">ALL PRODUCTS</a>
         <a href="" id=nav2_h>NEW & NOW</a>
-        <a href="" id=nav3_h>BODY CARE</a>
+        <a href="./BodyCare/bodycare.html" id=nav3_h>BODY CARE</a>
         <a href="" id=nav4_h>CANDLES</a>
         <a href="./fragrance/index.html" id=nav5_h>FRAGRANCE</a>
         <a href="" id=nav6_h>HAND SHOP'S & SANITIZERS</a>

@@ -1,4 +1,4 @@
-let data = JSON.parse(localStorage.getItem("data")) || [];
+let data = JSON.parse(localStorage.getItem("cart")) || [];
 
 cartData(data);
 
