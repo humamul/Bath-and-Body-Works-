@@ -14,8 +14,9 @@ let arr1 = JSON.parse(localStorage.getItem("sortedData"));
 import { append } from "../importFrom/products.js";
 let container = await document.getElementById("container_h");
 
-let displayData = async (data) => {  
-  append(container, data);console.log(data);
+let displayData = async (data) => {
+  append(container, data);
+  console.log(data);
 };
 displayData(arr1);
 
