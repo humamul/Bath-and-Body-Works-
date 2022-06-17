@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../humam_css/products.css">
+    <link rel="stylesheet" href="../humam_css/footer_h.css">
+    <link rel="stylesheet" href="../navbar/style/navbar.css">
 </head>
 <body>
+    <div id="header_h"></div>
     <div>
         <select name="" id="categoryD">
             <option value="">SELECT BY CATEGORY</option>
@@ -27,8 +30,22 @@
             <option value="htl">HIGH TO LOW</option>
         </select>
     </div>
-    <div id="containerD"></div>    
+    <div id="container_h"></div>    
+
+    <div id="footer_h"></div>
 </body>
 </html>
 <script src="./index.js" type="module"></script>
 <script src="../all data/data.js"></script>
+<script type="module">
+    
+import {navbar_h} from "../navbar/script/navbar.js"
+import {footer} from "../navbar/script/footer.js"
+console.log(navbar_h,'idhr hu')
+
+var x = document.querySelector('#header_h')
+x.innerHTML = navbar_h()
+
+var y = document.querySelector('#footer_h')
+y.innerHTML = footer()
+</script>
