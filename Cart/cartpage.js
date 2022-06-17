@@ -1,36 +1,3 @@
-// let data = [
-//     {
-//         image:"https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4861f8f9/large/024491265.jpg",
-//         name:"A THOUSAND WISHES",
-//         price: 1399,
-//         realPrice:839,
-//     },
-//     {
-//         image:"https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4861f8f9/large/024491265.jpg",
-//         name:"A THOUSAND WISHES",
-//         price: 1399,
-//         realPrice:839,
-//     },
-//     {
-//         image:"https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4861f8f9/large/024491265.jpg",
-//         name:"A THOUSAND WISHES",
-//         price: 1399,
-//         realPrice:839,
-//     },
-//     {
-//         image:"https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4861f8f9/large/024491265.jpg",
-//         name:"A THOUSAND WISHES",
-//         price: 1399,
-//         realPrice:839,
-//     },
-//     {
-//         image:"https://www.bathandbodyworks.in/on/demandware.static/-/Sites-bathandbody_master_catalog/default/dw4861f8f9/large/024491265.jpg",
-//         name:"A THOUSAND WISHES",
-//         price: 1399,
-//         realPrice:839,
-//     }
-// ]
-
 let data = JSON.parse(localStorage.getItem("data")) || [];
 
 cartData(data);
@@ -44,7 +11,7 @@ function cartData(data) {
   var total_discount = 0;
   var total_o_amount = 0;
   var shippingcharge = 150;
-  //   var shippedcharge = 0
+
   let tmrp = document.getElementById("m_value");
 
   let order_amount = document.getElementById("o_value");
@@ -53,7 +20,7 @@ function cartData(data) {
 
   let final = document.getElementById("t_value");
 
-  let shippedcharge = document.getElementById('s_value');
+  let shippedcharge = document.getElementById("s_value");
 
   let left = document.getElementById("left");
 
@@ -122,7 +89,6 @@ function cartData(data) {
 
     item_div.append(each, price, rp); // append to right
 
-
     let total_div = document.createElement("div");
     total_div.setAttribute("id", "total_div");
 
@@ -131,29 +97,29 @@ function cartData(data) {
 
     let t_price = document.createElement("s");
     t_price.setAttribute("id", "t_price");
-    t_price.innerText = el.price*(+el.quantity);
+    t_price.innerText = el.price * +el.quantity;
 
-    total_mrp = total_mrp + el.price*(+el.quantity)
-    tmrp.innerText = total_mrp
+    total_mrp = total_mrp + el.price * +el.quantity;
+    tmrp.innerText = total_mrp;
 
     let r_price = document.createElement("p");
     r_price.setAttribute("id", "r_price");
-    r_price.innerText = el.realPrice*(+el.quantity);
+    r_price.innerText = el.realPrice * +el.quantity;
 
-    total_o_amount += el.realPrice*(+el.quantity)
-    order_amount.innerText = total_o_amount
+    total_o_amount += el.realPrice * +el.quantity;
+    order_amount.innerText = total_o_amount;
 
-    if(total_o_amount<1500){
-      shippedcharge.innerText = shippingcharge
-      final.innerText = total_o_amount + shippingcharge
+    if (total_o_amount < 1500) {
+      shippedcharge.innerText = shippingcharge;
+      final.innerText = total_o_amount + shippingcharge;
     }
-    if(total_o_amount>1500){
-      shippedcharge.innerText = 0
-      final.innerText = total_o_amount
+    if (total_o_amount > 1500) {
+      shippedcharge.innerText = 0;
+      final.innerText = total_o_amount;
     }
 
-    total_discount += el.price*(+el.quantity) - el.realPrice*(+el.quantity)
-    discount.innerText = total_discount
+    total_discount += el.price * +el.quantity - el.realPrice * +el.quantity;
+    discount.innerText = total_discount;
     total_div.append(total, t_price, r_price); // append to right
 
     left2.append(item_div, total_div); // append to p_div
@@ -185,35 +151,20 @@ function cartData(data) {
   addmore.append(info);
   left.append(addmore);
 }
-let dis = document.getElementById("d_value");
-// dis.innerText = mrp.innerText-order_a.innerText
 
-let x = document.querySelector(".details>div>select")
-x.addEventListener("change",SelectFun)
+let tmrp = document.getElementById("m_value");
 
+let discount = document.getElementById("d_value");
 
-function SelectFun(){
+let final = document.getElementById("t_value");
 
-    console.log(x.value)
+let shippedcharge = document.getElementById("s_value");
+function StorePrice() {
+  let data = {
+    mrp:tmrp.innerText,
+    shippingcharge:shippedcharge.innerText,
+    discount: discount.innerText,
+    total:final.innerText
+  }
+  localStorage.setItem('order_value',JSON.stringify(data))
 }
-  
-
-
-
-
-
-
-
-
-
-//     let oprice = document.getElementById("t_price");
-//   oprice.innerText = x.value * el.price;
-//   console.log(oprice);
-//   document.getElementById("r_price").innerText = x.value * el.realPrice;
-  //   console.log()
-  //   total_mrp = total_mrp + x.value*el.price
-
-  //   total_o_amount = total_o_amount + x.value*el.realPrice
-
-  //   total_discount = total_mrp - total_o_amount
-  //   order_total.innerText = order_a.innerText

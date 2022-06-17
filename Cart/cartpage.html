@@ -55,7 +55,7 @@
                         <div id="o_total">
                             <h3>ORDER TOTAL</h3><h3 id="t_value">0</h3>
                         </div>
-                        <button id="checkout">CONTINUE CHECKOUT</button>
+                        <button id="checkout" onclick="StorePrice()">CONTINUE CHECKOUT</button>
                     </div>
                 </div>
             </div>
@@ -69,6 +69,6 @@
 <script type="module">
     import {footer} from "../navbar/script/footer.js"
 
-    let footer = document.querySelector('#footer_sv')
-    footer.innerHTML = footer()
+    let foot = document.querySelector('#footer_sv')
+    foot.innerHTML = footer()
 </script>
