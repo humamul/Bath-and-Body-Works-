@@ -10,7 +10,6 @@ for (var i = 0; i < rawData.length; i++) {
 localStorage.setItem("sortedData", JSON.stringify(arr));
 
 let arr1 = JSON.parse(localStorage.getItem("sortedData"));
-// console.log(arr1)
 
 import { append } from "../importFrom/products.js";
 let container = await document.getElementById("container_h");

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/billing.css">
+    <link rel="stylesheet" href="../humam_css/footer_h.css">
+    <link rel="stylesheet" href="../navbar/style/navbar.css">
+</head>
+<body>
+    <div id="header_h"></div>
+   
+    <div id="process_div_A">
+       
+    </div>
+    <div id="container_A">
+        <div id="user_details_A">
+            <form id="form_A">
+                <div>
+                    <label for="">Name</label>
+                    <input type="text" id="first_name_A">
+                </div>
+
+                <div>
+                    <label for="">Email</label>
+                    <input type="text" id="last_name_A">
+                </div>
+
+                <div>
+                    <label for="">Personal Photo</label>
+                    <input type="text" id="address1_A">
+                </div>
+
+                <div>
+                    <label for="">Short Author Bio</label>
+                    <textarea style="border: 1px solid black; height: 200px; font-size: 18px;"></textarea>
+                </div>
+            </form>
+            <button id="submit_A">REVIEW & CONFIRM ORDER</button>
+            <a href="https://www.bathandbodyworks.com/customer-care/privacy-and-security.html">Privacy Policy</a>
+        </div>
+        
+       <div>
+            <div id="product_details_A">
+                <h3>YOUR ORDER</h3>
+                <hr style="border: 1px solid gray; width:80%; margin-bottom: 20px;">
+            </div>
+
+            <div id="user_address_A">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footer_h"></div>
+
+</body>
+</html>
+
+<script type="module" src="./script/review&submit.js"></script>
+<script type="module">
+    
+    import {navbar_h} from "../navbar/script/navbar.js"
+    import {footer} from "../navbar/script/footer.js"
+    
+    var x = document.querySelector('#header_h')
+    x.innerHTML = navbar_h()
+    
+    var y = document.querySelector('#footer_h')
+    y.innerHTML = footer()
+    </script>
