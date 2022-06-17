@@ -98,6 +98,7 @@ body {
     height: 40%;
     display: flex;
     padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 .logo_A>img {
@@ -116,9 +117,10 @@ body {
     margin-right: 50px;
 }
 .logo_A>div>fieldset{
-    border: 1px solid green; 
+    /* border: 1px solid green;  */
     width: 75%;
     height: 40%;
+    /* margin-top: -50px; */
     display: flex;
     border-style: groove;
 }
