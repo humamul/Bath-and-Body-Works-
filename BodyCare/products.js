@@ -89,6 +89,7 @@ function appendData(data){
         let button = document.createElement('button')
         button.setAttribute('class','probtn_sv')
         button.innerText = 'Add To Cart'
+        button.style.cursor = 'pointer'
         button.addEventListener('click',()=>{
             addToCart(el)
         })
