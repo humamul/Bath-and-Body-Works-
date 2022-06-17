@@ -133,6 +133,7 @@ body {
     margin-left: -12px;
     font-size: 15px;
     padding-left: 10px;
+    outline: none;
 }
 .logo_A>div>fieldset>button{
     width: 20%;

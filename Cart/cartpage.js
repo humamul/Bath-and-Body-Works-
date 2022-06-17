@@ -167,4 +167,5 @@ function StorePrice() {
     total:final.innerText
   }
   localStorage.setItem('order_value',JSON.stringify(data))
+  window.location = '../checkout/shipping.html'
 }

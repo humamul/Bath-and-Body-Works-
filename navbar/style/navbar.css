@@ -127,13 +127,14 @@ body {
 }
 .logo_A>div>fieldset>input{
     width: 120%;
-    height: 154%;
+    height: 124%;
     border: none;
     background-color: white;
     margin-top: -5px;
     margin-left: -12px;
     font-size: 15px;
     padding-left: 10px;
+    outline: none;
 }
 .logo_A>div>fieldset>button{
     width: 20%;
@@ -153,7 +154,7 @@ body {
     height: 80%;
     width: 30px;
 }
-.logo_A>div>img+img{
+.logo_A>div>a>img{
     /* border: 1px solid yellow; */
     height: 80%;
     width: 30px;
