@@ -23,7 +23,7 @@ return ` <div class="head1_A">
 <div class="head3_A">
 <div class="logo_A">
 
-<a href="./index.html"> <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwa9385fe9/images/svg-icons/Logos-main.svg?yocs=o_s_"
+<a href="../index.html"> <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwa9385fe9/images/svg-icons/Logos-main.svg?yocs=o_s_"
         alt=""></a>
    
 
@@ -39,11 +39,11 @@ return ` <div class="head1_A">
 </div>
 <div class="category_A">
     <a href="../products pages/all products.html" id="nav1_h">ALL PRODUCTS</a>
-    <a href="" id=nav2_h>NEW & NOW</a>
+    <a href="../chacha/New And Now.html" id=nav2_h>NEW & NOW</a>
     <a href="../BodyCare/bodycare.html" id=nav3_h>BODY CARE</a>
     <a href="" id=nav4_h>CANDLES</a>
     <a href="../fragrance/index.html" id=nav5_h>FRAGRANCE</a>
-    <a href="" id=nav6_h>HAND SOAP'S & SANITIZERS</a>
+    <a href="../my_data/myProduct.html" id=nav6_h>HAND SOAP'S & SANITIZERS</a>
     <a href="" id=nav7_h>MEN'S</a>
     <a href="../gifts/index.html" id=nav8_h>GIFTS</a>
 </div>
