@@ -62,7 +62,7 @@ function cartData(data) {
     remove.setAttribute("id", "remove");
     remove.addEventListener("click", function () {
       data.splice(i, 1);
-      localStorage.setItem("data", JSON.stringify(data));
+      localStorage.setItem("cart", JSON.stringify(data));
       window.location.reload();
     });
 

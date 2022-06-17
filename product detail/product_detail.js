@@ -4,7 +4,7 @@ import {footer} from "../navbar/script/footer";
 document.querySelector("#footer").innerHTML=footer();
 
 let data=JSON.parse(localStorage.getItem("product"));
-
+console.log('AAja bhai')
 let big_img=document.querySelector("#big_img");
 let img1=document.createElement("img");img1.src=data.image;
 big_img.append(img1)
