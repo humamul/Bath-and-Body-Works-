@@ -1,0 +1,40 @@
+*{font-family:'Times New Roman', Times, serif;}
+hr{width:90%;margin:auto;margin-top:20px;}
+#container{
+    width:90%;
+    display:flex;
+    margin:auto;
+    margin-top:30px;
+    justify-content: space-between;
+}
+#container>div{
+    width:48%;
+}
+#small_img>img{
+    width:70px;
+    height:100px;
+}
+
+
+#add{display:flex;justify-content: space-between;width:50%;align-items: center;}
+#add_to_cart{padding:15px;background-color: black;color:white;cursor: pointer;border-radius:10px}
+#pin>input{
+    padding:10px;width:50%;
+}
+#check{padding:10px;background-color: blue;color:white;
+    font-size:medium;cursor: pointer;border:none;border-radius:6px}
+#logo_del{display:flex}
+#logo_del>p{margin-left:20px;}
+#more_info,#fragrance,#overview{width:70%}
+#customer{
+width:90%;margin:auto;
+display:flex;
+justify-content: space-between;
+}
+#customer>div>img{
+width:177px;height:237px;display:block;margin:auto;
+}
+#customer>div{text-align:center;}
+#customer>div>a{text-decoration: none;color:black}
+h2{text-align: center;}
+
