@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/billing.css">
+    <link rel="stylesheet" href="../humam_css/footer_h.css">
+    <link rel="stylesheet" href="../navbar/style/navbar.css">
+</head>
+<body>
+    <div id="header_h"></div>
+   
+    <div id="process_div_A">
+       
+    </div>
+    <div id="container_A">
+        <div id="user_details_A">
+
+            
+            <form id="form_A">
+                <h2>CONTACT INFORMATION</h2>
+
+                <div>
+                    <label for="">Email</label>
+                    <input type="text" name="" id="email_A">
+                </div>
+
+                <div>
+                    <h2>PAYMENT METHOD</h2>
+                    <div>
+                        <input type="radio">
+                        <label for="">Credit Card</label>
+                        <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw3217f22e/images/cc-strap-updated-4-4.png?yocs=o_s_" alt="" style="width: 40%;">
+                    </div>
+                    <div>
+                        <input type="radio">
+                        <label for="">PayPal</label>
+                        <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/-/Sites/default/dw39bcf393/images/payments/payment-ppal.svg?yocs=o_s_" alt="" style="width: 20%; height:25px;">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="">Name on Card</label>
+                    <input type="text" name="" id="cardName_A">
+                </div>
+
+                <div>
+                    <label for="">Number</label>
+                    <input type="text" name="" id="cardNumber_A">
+                </div>
+
+                <div>
+                    <label for="">Expiration Date</label>
+                    <input type="date" id="date_A">
+                </div>
+
+                <div>
+                    <label for="">Security Code</label>
+                    <input type="text" id="securityCode_A">
+                </div>
+
+                <div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <span>Save card and make default</span>
+                    </div>
+                </div>
+
+                <p>Please complete all form fields before continuing</p>
+
+                <button id="submit_A">REVIEW ORDER</button>
+                <a href="https://www.bathandbodyworks.com/customer-care/privacy-and-security.html">Privacy Policy</a>
+
+
+            </form>
+        </div>
+        
+       <div>
+            <div id="product_details_A">
+                <h3>YOUR ORDER</h3>
+                <hr style="border: 1px solid gray; width:80%; margin-bottom: 20px;">
+            </div>
+
+            <div id="user_address_A">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footer_h"></div>
+
+</body>
+</html>
+
+<script type="module" src="./script/billing.js"></script>
+<script type="module">
+    
+    import {navbar_h} from "../navbar/script/navbar.js"
+    import {footer} from "../navbar/script/footer.js"
+    
+    var x = document.querySelector('#header_h')
+    x.innerHTML = navbar_h()
+    
+    var y = document.querySelector('#footer_h')
+    y.innerHTML = footer()
+    </script>

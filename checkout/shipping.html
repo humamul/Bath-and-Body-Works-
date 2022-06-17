@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/billing.css">
+    <link rel="stylesheet" href="../humam_css/footer_h.css">
+    <link rel="stylesheet" href="../navbar/style/navbar.css">
+</head>
+
+<body>
+    <div id="header_h"></div>
+    
+
+    <div id="process_div_A">
+
+    </div>
+
+    <div id="container_A">
+
+        <div id="user_details_A">
+            <h2>SHIPPING ADDRESS</h2>
+
+            <form id="form_A">
+                <div>
+                    <label for="">First Name</label>
+                    <input type="text" id="first_name_A">
+                </div>
+
+                <div>
+                    <label for="">Last Name</label>
+                    <input type="text" id="last_name_A">
+                </div>
+
+                <div>
+                    <label for="">Address 1</label>
+                    <input type="text" id="address1_A">
+                </div>
+
+                <div>
+                    <label for="">Address 2</label>
+                    <input type="text" id="address2_A">
+                </div>
+
+                <div>
+                    <label for="">Country</label>
+                    <select name="" id="country_A">
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="">City</label>
+                    <input type="text" id="city_A">
+                </div>
+
+                <div>
+                    <label for="">State</label>
+                    <select name="" id="state_A">
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="">Zip Code</label>
+                    <input type="text" id="zip_code_A">
+                </div>
+
+                <div>
+                    <label for="">Phone</label>
+                    <input type="text" id="phone_A">
+                </div>
+
+
+                <input type="checkbox">
+                <label for="">Use Address for Billing</label>
+
+
+                <div>
+                    <label for="">Are you shipping a gift?</label>
+                    <div>
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="check" id="Yes">
+                        <label for="No">No</label>
+                        <input type="radio" name="check" id="Yes">
+                    </div>
+                </div>
+
+                <div>
+                    <h2>SHIPPING METHOD</h2>
+
+                    <div style="border: 1px solid black;">
+                        <div style="margin-top: 20px;">
+                            <input type="radio" id="standard_A" name="ship_method_A">
+                            <label for="standard_A" style="font-weight: bold;">Standard</label>
+                            <span style="margin-right: 100px;">3-7 business days.</span>
+                            <span style="font-weight: bold;">$6.99</span>
+                            <br>
+                            <span style="width: 50%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estimated delivery</span>
+                            <span style="font-weight: bold"> Fri Jun 17 - Fri Jun 24</span>
+                            <span>Details</span>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <input type="radio" id="Expedited_A" name="ship_method_A">
+                            <label for="Expedited_A" style="font-weight: bold;">Expedited</label>
+                            <span style="margin-right: 100px;">2 business days</span>
+                            <span style="font-weight: bold;">$15.99</span>
+                            <br>
+                            <span style="width: 50%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estimated delivery</span>
+                            <span style="font-weight: bold"> Thurs Jun 16</span>
+                            <span>Details</span>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <input type="radio" id="Overnight_A" name="ship_method_A">
+                            <label for="Overnight_A" style="font-weight: bold;">Overnight</label>
+                            <span style="margin-right: 100px;">1 business days.</span>
+                            <span style="font-weight: bold;">$20.99</span>
+                            <br>
+                            <span style="width: 50%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estimated delivery</span>
+                            <span style="font-weight: bold">Wed Jun 15</span>
+                            <span>Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Please complete all form fields before continuing</p>
+
+
+                <button id="submit_A">GO TO BILLING</button>
+                <a href="https://www.bathandbodyworks.com/customer-care/privacy-and-security.html">Privacy Policy</a>
+
+
+            </form>
+        </div>
+
+
+
+
+        <div>
+            <div id="product_details_A">
+                <h3>YOUR ORDER</h3>
+                <hr style="border: 1px solid gray; width:80%; margin-bottom: 20px;">
+            </div>
+
+            <div id="user_address_A">
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div id="footer_h"></div>
+
+
+</body>
+
+</html>
+
+<script type="module" src="./script/shipping.js"></script>
+<script type="module">
+    
+    import {navbar_h} from "../navbar/script/navbar.js"
+    import {footer} from "../navbar/script/footer.js"
+    
+    var x = document.querySelector('#header_h')
+    x.innerHTML = navbar_h()
+    
+    var y = document.querySelector('#footer_h')
+    y.innerHTML = footer()
+    </script>
