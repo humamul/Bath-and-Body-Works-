@@ -101,11 +101,12 @@ body {
     margin-bottom: 10px;
 }
 
-.logo_A>img {
-    width: 23%;
+.logo_A>a>img {
+    width: 43%;
     height: 100%;
     margin: auto;
-    margin-left: 550px;
+    margin-left: 500px;
+    margin-right: 200px;
 }
 
 .logo_A>div{

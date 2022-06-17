@@ -22,8 +22,10 @@ return ` <div class="head1_A">
 </div>
 <div class="head3_A">
 <div class="logo_A">
-    <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwa9385fe9/images/svg-icons/Logos-main.svg?yocs=o_s_"
-        alt="">
+
+<a href="./index.html"> <img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwa9385fe9/images/svg-icons/Logos-main.svg?yocs=o_s_"
+        alt=""></a>
+   
 
     <div>
         <fieldset>
