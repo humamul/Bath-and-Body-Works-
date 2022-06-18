@@ -125,15 +125,16 @@ body {
     border-style: groove;
 }
 .logo_A>div>fieldset>input{
-    width: 120%;
-    height: 154%;
-    border: none;
+    width: 100%;
+    height: 194%;
+    /* border: none; */
     background-color: white;
     margin-top: -5px;
     margin-left: -12px;
     font-size: 15px;
     padding-left: 10px;
-    outline: none;
+    /* outline: none; */
+    border: 1px solid;
 }
 .logo_A>div>fieldset>button{
     width: 20%;
@@ -142,7 +143,11 @@ body {
     background-color: white;
     cursor: pointer;
 }
-
+#search_A{
+    position: relative;
+    margin-left: -70px;
+    margin-top: -3px;
+}
 .logo_A>div>fieldset>button>img{
     height: 100%;
     margin-top: 0px;
