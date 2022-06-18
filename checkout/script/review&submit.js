@@ -31,7 +31,12 @@ if(reviewsubmit.innerText=="Review & Submit Order"){
 
 document.getElementById("submit_A").addEventListener("click",userData)
 
+
 function userData(){
+    let cartArray = [];
+    localStorage.setItem("cart",JSON.stringify(cartArray))
+
+    window.location.href = "../../Cool-Coders/index.html"
     alert("YOUR ORDER IS SUCCESSFULLY PLACED")
 
 }
