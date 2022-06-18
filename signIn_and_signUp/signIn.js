@@ -85,4 +85,4 @@ document
   import {footer} from "../navbar/script/footer.js" ;
 
   document.getElementById("navbarD").innerHTML = navbar_h() ;
-  document.getElementById("footerD").innerHTML = footer() ;
+  document.getElementById("footer_h").innerHTML = footer() ;

@@ -32,7 +32,7 @@ return ` <div class="head1_A">
             <input type="text" id="input_a" placeholder="Search by fragrance or product...">
             <button id="search_A"><img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwbfdc63c5/images/svg-icons/UI-Search-v2.svg?yocs=o_s_" alt=""></button>
         </fieldset>
-        <a href="../signIn_and_signUp/signInPage/signIn.html"><img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw3e39cc25/images/svg-icons/UI-MyAccount.svg?yocs=o_s_" alt=""></a>
+        <a href="../signIn_and_signUp/signIn.html"><img src="https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.216/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw3e39cc25/images/svg-icons/UI-MyAccount.svg?yocs=o_s_" alt=""></a>
         
        
         <a href="../Cart/cartpage.html"> <img src="https://www.kindpng.com/picc/m/480-4803687_blue-cart-icon-hd-png-download.png" alt=""></a>
