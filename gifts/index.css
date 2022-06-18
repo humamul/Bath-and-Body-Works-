@@ -156,12 +156,22 @@
     height: 20px;
     overflow: hidden;
 }
-.probtn_sv{
+.probtn_sv:hover{
     margin-bottom: 10px;
     width: 80%;
     border: 1px solid black;
     color: white;
     background-color: black;
+    padding: 5px;
+}
+.probtn_sv{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 5px;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    cursor: pointer; 
     padding: 5px;
 }
 
