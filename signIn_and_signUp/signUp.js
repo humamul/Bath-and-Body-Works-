@@ -214,11 +214,11 @@ let getUserData = () => {
 
   userArr.push(userObj);
   localStorage.setItem("userCred", JSON.stringify(userArr));
-  window.location.href = `../signInPage/signIn.html`;
+  window.location.href = `./signIn.html`;
 };
 
 import { navbar_h } from "../navbar/script/navbar.js";
 import { footer } from "../navbar/script/footer.js";
 
 document.getElementById("navbarD").innerHTML = navbar_h();
-document.getElementById("footerD").innerHTML = footer();
+document.getElementById("footer_h").innerHTML = footer();

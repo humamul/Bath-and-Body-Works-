@@ -52,7 +52,7 @@ let signInFunction = () => {
     alert("Login successfully...!");
     document.getElementById("email").value = null;
     document.getElementById("password").value = null;
-    window.location.href = `.home.html`; // link home page here....
+    window.location.href = `../index.html`; // link home page here....
   } else {
     alert("Login failed...!Please enter correct details...");
   }
