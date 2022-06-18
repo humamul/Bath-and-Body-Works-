@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sites-BathAndBodyWorks-Sites</title>
+    <link rel="stylesheet" href="./sugandh.css" />
+    <link rel="stylesheet" href="../navbar/style/navbar.css">
+    <link rel="stylesheet" href="../humam_css/footer_h.css">
+    <link rel="shortcut icon" href="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw9d49eb87/images/favicons/favicon-196x196.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="navbar">Navbar</div>
+
+    <div id="display_sv">
+      <div id="dummy_sv">
+        <div>
+          <h4>TOP OFFERS</h4>
+          <p>$5.50 Select Men's Body Care</p>
+          <p>$4.95 Select Body Care</p>
+          <p>All Sale Body Care</p>
+          <h4>BATH & SHOWER</h4>
+          <p>All Bath & Shower</p>
+          <p>Body Wash & Shower Gel</p>
+          <p>Bubble Bath</p>
+          <p>Body Scrub</p>
+          <p>Bar Soap</p>
+          <p>Bath Accessories</p>
+          <h4>MOISTURIZERS</h4>
+          <p>All Moisturizers</p>
+          <p>Body Lotion</p>
+          <p>Body Cream</p>
+          <p>Hand Cream</p>
+          <p>Lip Gloss & Balms</p>
+        </div>
+      </div>
+      <div id="details_sv">
+        <p>Fragrance</p>
+        <div id="filter">
+          <div id="filter1">
+            <h4>Filter BY:</h4>
+            <form>
+              <select id="type_sv" onChange="handleType()">
+                <option value="">Product Type</option>
+                <option value="Fragrance">Fragrance</option>
+                <option value="Room Spray">Room Spray</option>
+              </select>
+              <select id="subtype_sv" onChange="handleSubtype()">
+                <option value="">Product Subtype</option>
+                <option value="Fragrance Refill">Fragrance Refill</option>
+                <option value="Room Spray">Room Spray</option>
+                <option value="Perfume">Perfume</option>
+              </select>
+            </form>
+          </div>
+          <div id="filter2">
+            <form>
+              <select id="price_sv" onChange="handlePrice()">
+                <option value="">Sort By Price</option>
+                <option value="LTH">Low to High</option>
+                <option value="HTL">High to Low</option>
+              </select>
+            </form>
+          </div>
+        </div>
+        <img src="https://github.com/humamul/Cool-Coders/blob/main/images/text.gif?raw=true" alt="" />
+        <div id="product_sv">
+          <div id="container_sv"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer_h">Footer</div>
+  </body>
+</html>
+<script src="./sugandh.js"></script>
+<a href=""></a>
+<script type="module">
+  import { navbar_h } from "../navbar/script/navbar.js";
+  import { footer } from "../navbar/script/footer.js";
+  // console.log(footer());
+
+  var x = document.querySelector("#navbar");
+  x.innerHTML = navbar_h();
+
+  var y = document.querySelector("#footer_h");
+  y.innerHTML = footer();
+</script>
