@@ -39,7 +39,7 @@ return ` <div class="head1_A">
 
 </div>
 <div class="category_A">
-    <a href="../products pages/all products.html" id="nav1_h">ALL PRODUCTS</a>
+    <a href="../All Products/allProducts.html" id="nav1_h">ALL PRODUCTS</a>
     <a href="../chacha/New And Now.html" id=nav2_h>NEW & NOW</a>
     <a href="../BodyCare/bodycare.html" id=nav3_h>BODY CARE</a>
     <a href="" id=nav4_h>CANDLES</a>
