@@ -10,9 +10,9 @@ function footer(){
 <h3 style="margin-top: 34px;">GET CONNECTED</h3>
     <div id="social_h">
      
-      <a href=""><img src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494479.png?token=exp=1655333293~hmac=2e3230da457600e37cb9eb29e60261c2" alt=""></a>
-      <a href=""><img src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494477.png?token=exp=1655333293~hmac=ec2a53ffe638b91349e3ebaec3c374d1" alt=""></a>
-      <a href=""><img src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494488.png?token=exp=1655333293~hmac=c0b67cd5e6868d19c77fb673fdf82525" alt=""></a>
+      <a href=""><img src="https://github.com/humamul/Cool-Coders/blob/main/images/fb.png?raw=true" alt=""></a>
+      <a href=""><img src="https://github.com/humamul/Cool-Coders/blob/main/images/instagram.jpg?raw=true" alt=""></a>
+      <a href=""><img src="https://github.com/humamul/Cool-Coders/blob/main/images/twitter.png?raw=true" alt=""></a>
       <a href=""><img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt=""></a>
       <a href=""><img src="https://cdn-icons-png.flaticon.com/128/3116/3116491.png" alt=""></a>
       <a href=""><img src="https://cdn-icons-png.flaticon.com/128/725/725296.png" alt=""></a>
