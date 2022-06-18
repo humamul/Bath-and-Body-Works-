@@ -81,8 +81,8 @@ document
   .querySelector("#password~button")
   .addEventListener("click", showHideFunction);
 
-  import {navbar_h} from "../../../navbar/script/navbar.js" ;
-  import {footer} from "../../../navbar/script/footer.js" ;
+  import {navbar_h} from "../navbar/script/navbar.js" ;
+  import {footer} from "../navbar/script/footer.js" ;
 
   document.getElementById("navbarD").innerHTML = navbar_h() ;
   document.getElementById("footerD").innerHTML = footer() ;
