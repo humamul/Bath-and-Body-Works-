@@ -36,7 +36,7 @@ function userData(){
     let cartArray = [];
     localStorage.setItem("cart",JSON.stringify(cartArray))
 
-    window.location.href = "../../Cool-Coders/index.html"
+    window.location.href = "../index.html"
     alert("YOUR ORDER IS SUCCESSFULLY PLACED")
 
 }
