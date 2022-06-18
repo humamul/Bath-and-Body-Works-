@@ -67,7 +67,66 @@ function productAppend(userProDataArray,product_details){
  
 }
 
-export {append, productAppend}
+
+function orderDetails(orer_value){
+  console.log(orer_value)
+    
+  let cart = document.createElement("div")
+  
+  let orderDet = document.createElement("h2");
+  orderDet.innerText = "ORDER DETAILS"
+
+  let desc = document.createElement("p");
+  desc.innerText = "Prices are inclusive of all taxes"
+  desc.setAttribute("class","desc")
+
+  let orderSumm = document.createElement("p");
+  orderSumm.innerText = "Order Summary"
+
+  let totalmrpDiv = document.createElement("div")
+  totalmrpDiv.setAttribute("class","detailamount")
+  let totalmrp = document.createElement("span");
+  totalmrp.innerText = "Total MRP"
+  let totalmrpvalue = document.createElement("span");
+  totalmrpvalue.innerText = orer_value.mrp
+  totalmrpDiv.append(totalmrp,totalmrpvalue)
+
+  let shippingchargeDiv = document.createElement("div")
+  shippingchargeDiv.setAttribute("class","detailamount")
+  let shippingcharge = document.createElement("span");
+  shippingcharge.innerText = "Shipping charges"
+  let shippingchargevalue = document.createElement("span");
+  shippingchargevalue.innerText = orer_value.shippingcharge;
+
+  shippingchargeDiv.append(shippingcharge,shippingchargevalue)
+
+  let discountDiv = document.createElement("div")
+  discountDiv.setAttribute("class","detailamount")
+  let discount = document.createElement("span");
+  discount.innerText = "Discount"
+  let discountvalue = document.createElement("span");
+  discountvalue.innerText = orer_value.discount
+  discountDiv.append(discount,discountvalue)
+
+  
+
+  let totalAmountDiv = document.createElement("div")
+  totalAmountDiv.setAttribute("class","total")
+  let totalAmount = document.createElement("span")
+  totalAmount.innerText = "ORDER TOTAL"
+  let totalAmountvalue = document.createElement("span")
+  totalAmountvalue.innerText = orer_value.total
+  totalAmountDiv.append(totalAmount,totalAmountvalue)
+
+  orderDetails_A.append(cart)
+  cart.append(orderDet,desc,orderSumm,totalmrpDiv,shippingchargeDiv,discountDiv,totalAmountDiv)
+}
+
+
+
+
+
+export {append, productAppend,orderDetails}
 
 
 

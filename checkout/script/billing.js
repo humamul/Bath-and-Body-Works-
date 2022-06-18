@@ -9,14 +9,19 @@ process_div.innerHTML = process()
 
 let userDataObj = JSON.parse(localStorage.getItem("userInfo"))||{}
 
-import {append,productAppend} from "../components/append.js"
+import {append,productAppend,orderDetails} from "../components/append.js"
 let user_address =  document.getElementById("user_address_A");
 append(user_address,userDataObj)
 
 
-let userProDataArray = JSON.parse(localStorage.getItem("userProData"))
+let userProDataArray = JSON.parse(localStorage.getItem("cart"))
 let product_details = document.getElementById("product_details_A")
 productAppend(userProDataArray,product_details)
+
+let orer_value = JSON.parse(localStorage.getItem("order_value"))
+let orderDetails_A = document.getElementById("orderDetails_A")
+orderDetails(orer_value,orderDetails_A)
+
 
 
 var billing = document.getElementById("billing_A")
@@ -46,7 +51,7 @@ function userData(){
    }
    else{
        
-       window.location.href="../checkout-page/review&submit.html"
+       window.location.href="../checkout/review&submit.html"
    }
 
 
@@ -56,7 +61,7 @@ function userData(){
 document.querySelector(".edit_A").addEventListener("click",editFunc)
 function editFunc(){
     console.log("x")
-    window.location.href = "../checkout-page/shipping.html"
+    window.location.href = "../checkout/shipping.html"
 
 }
 
