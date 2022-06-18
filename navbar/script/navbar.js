@@ -44,7 +44,7 @@ return ` <div class="head1_A">
     <a href="../chacha/New And Now.html" id=nav2_h>NEW & NOW</a>
     <a href="../BodyCare/bodycare.html" id=nav3_h>BODY CARE</a>
     <a href="" id=nav4_h>CANDLES</a>
-    <a href="../fragrance/index.html" id=nav5_h>FRAGRANCE</a>
+    <a href="../Sugandh/sugandh.html" id=nav5_h>FRAGRANCE</a>
     <a href="../my_data/myProduct.html" id=nav6_h>HAND SOAP'S & SANITIZERS</a>
     <a href="" id=nav7_h>MEN'S</a>
     <a href="../gifts/index.html" id=nav8_h>GIFTS</a>
