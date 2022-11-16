@@ -61,9 +61,9 @@ we really enjoyed this whole part of developing and had a learing experience and
 
 ### Team Members
 
-- **[Humammul]**
+- **[Humam Ul Islam]**
 - **[Aman]**
-- **[Sanjaykumar]**
+- **[Sanjaykumari]**
 - **[Namdev]**
 - **[Sagar]**
 - **[Dheeraj]**
